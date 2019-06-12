@@ -21,9 +21,7 @@
     import url from 'url';
     import qs from 'qs';
 
-
     const queryParams = qs.parse(url.parse(document.location.href).query);
-
 
     export default {
         components: {
